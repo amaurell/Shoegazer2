@@ -14,13 +14,14 @@ function Home() {
 
   useEffect(() => {
     async function getData() {
-      try {
-        const data = await repo.retrieveAllVideos();
+      const URL = 'https://tranquil-beach-70411.herokuapp.com/videos';
+      const response = await fetch(URL);
+      const data = await response.json();
+
+      if (data) {
         setCategories([
           ...data,
         ]);
-      } catch (error) {
-        console.log(error);
       }
     }
     getData();

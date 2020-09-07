@@ -1,0 +1,199 @@
+{
+    "categorias": [
+        {   
+            "id":1,
+            "titulo": "Jesus And The Mary Chain",
+            "link": "https://www.alura.com.br/formacao-front-end",
+            "cor": "rgb(179, 0, 71)",
+            "link_extra": {
+                "text": "Tracks",
+                "url": "https://www.youtube.com/watch?v=470HnRobKLc&list=PLa-xBlyGSf9gTt5yJM80jSAJrBSaDGx3R"
+            }
+        },
+        {
+            "id":2,
+            "titulo": "Sonic Youth",
+            "cor": "rgb(179, 0, 71)",
+            "link_extra": {
+                "text": "Tracks",
+                "url": "https://www.youtube.com/watch?v=PVwJMOtfJbU"
+            }
+        },
+        {
+            "id":3,
+            "titulo": "Velvet Underground & Nico",
+            "cor": "rgb(179, 0, 71)",
+            "link_extra": {
+                "text": "Tracks",
+                "url": "https://www.youtube.com/watch?v=3qK82JvRY5s&list=PL6L69LqeN3NgDv3WVOXlokZQoaqFh2h-I"
+            }
+        },
+        {
+            "id":4,
+            "titulo": "Syd Barret",
+            "cor": "rgb(179, 0, 71)"
+        },
+        {
+            "id":5,
+            "titulo": "The Clash",
+            "cor": "rgb(179, 0, 71)",
+            "link_extra": {
+                "text": "Formação de Jogos na Alura",
+                "url": "https://www.alura.com.br/formacao-jogos-unity"
+            }
+        }
+    ],
+    "videos": [
+        {
+            "id": 1,
+            "categoriaId": 1,
+            "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
+            "url": "https://www.youtube.com/watch?v=470HnRobKLc&list=PLa-xBlyGSf9gTt5yJM80jSAJrBSaDGx3R"
+        },
+        {
+            "id": 2,
+            "categoriaId": 1,
+            "titulo": "Just Like Honey",
+            "url": "https://www.youtube.com/watch?v=470HnRobKLc&list=PLa-xBlyGSf9gTt5yJM80jSAJrBSaDGx3R"
+        },
+        {
+            "id": 3,
+            "categoriaId": 1,
+            "titulo": "Happy When It Rains",
+            "url": "https://www.youtube.com/watch?v=G5x1F9ohRa4"
+        },
+        {
+            "id": 4,
+            "categoriaId": 1,
+            "titulo": "Heres Come Alice",
+            "url": "https://www.youtube.com/watch?v=VsXIFAa-lSs&list=OLAK5uy_kZ4aW0zTlQn2pwQB4X7ojm3RJQ4Y9jlEc"
+        },
+        {
+            "id": 5,
+            "categoriaId": 1,
+            "titulo": "Blues From A Gun",
+            "url": "https://www.youtube.com/watch?v=esJhhZk-BqE"
+        },
+        {
+            "id": 6,
+            "categoriaId": 1,
+            "titulo": "Her Way Of Praying",
+            "url": "https://www.youtube.com/watch?v=A9pMerco4jc"
+        },
+        {
+            "id": 7,
+            "categoriaId": 1,
+            "titulo": "Darklands",
+            "url": "https://www.youtube.com/watch?v=_w9sCTtZ9EA"
+        },
+        {
+            "id": 8,
+            "categoriaId": 1,
+            "titulo": "Halfway To Crazy",
+            "url": "https://www.youtube.com/watch?v=JMRgKmieky0&list=OLAK5uy_kZ4aW0zTlQn2pwQB4X7ojm3RJQ4Y9jlEc&index=9"
+        },
+        {
+            "id": 9,
+            "categoriaId": 2,
+            "titulo": "Washing Machine",
+            "url": "https://www.youtube.com/watch?v=aRZIESpjvt4"
+        },
+        {
+            "id": 10,
+            "categoriaId": 2,
+            "titulo": "Pink Steam",
+            "url": "https://www.youtube.com/watch?v=LFGF638WDAQ"
+        },
+        {
+            "id": 11,
+            "categoriaId": 2,
+            "titulo": "Mote",
+            "url": "https://www.youtube.com/watch?v=-wZNu3v4jh8"
+        },
+        {
+            "id": 12,
+            "categoriaId":2,
+            "titulo": "Disappearer",
+            "url": "https://www.youtube.com/watch?v=Y8MFqJ22kSs"
+        },
+        {
+            "id": 13,
+            "categoriaId":3,
+            "titulo": "Sunday Morning",
+            "url": "https://www.youtube.com/watch?v=3qK82JvRY5s&list=PL6L69LqeN3NgDv3WVOXlokZQoaqFh2h-I"
+        },
+        {
+            "id": 14,
+            "categoriaId":3,
+            "titulo": "Femme Fatale",
+            "url": "https://www.youtube.com/watch?v=jog8gh40Fho&list=PL6L69LqeN3NgDv3WVOXlokZQoaqFh2h-I&index=3"
+        },
+        {
+            "id": 15,
+            "categoriaId":3,
+            "titulo": "Sunday Morning",
+            "url": "https://www.youtube.com/watch?v=3qK82JvRY5s&list=PL6L69LqeN3NgDv3WVOXlokZQoaqFh2h-I"
+        },
+        {
+            "id": 16,
+            "categoriaId":3,
+            "titulo": "Venus in Furs",
+            "url": "https://www.youtube.com/watch?v=iLQzaLr1enE&list=PL6L69LqeN3NgDv3WVOXlokZQoaqFh2h-I&index=4"
+        },
+        {
+            "id": 17,
+            "categoriaId":4,
+            "titulo": "Here I go",
+            "url": "https://www.youtube.com/watch?v=cgXLHN25geY"
+        },
+        {
+            "id": 18,
+            "categoriaId":4,
+            "titulo": "Terrapin",
+            "url": "https://www.youtube.com/watch?v=VaGRtH7h4oA"
+        },
+        {
+            "id": 19,
+            "categoriaId":4,
+            "titulo": "Baby Lemonade",
+            "url": "https://www.youtube.com/watch?v=eNgxNxkUQF0"
+        },
+        {
+            "id": 20,
+            "categoriaId":4,
+            "titulo": "Dark Globe",
+            "url": "https://www.youtube.com/watch?v=xEr6w7P44Nk"
+        },
+        {
+            "id": 21,
+            "categoriaId":5,
+            "titulo": "London Calling",
+            "url": "https://www.youtube.com/watch?v=XN7iEFVLf5c&list=PLkLimRXN6NKzoSccJhADNW42Ayxf7mYwF&index=1"
+        },
+        {
+            "id": 22,
+            "categoriaId":5,
+            "titulo": "Brand New Cadillac",
+            "url": "https://www.youtube.com/watch?v=uqTpZXcTc_s&list=PLkLimRXN6NKzoSccJhADNW42Ayxf7mYwF&index=2"
+        },
+        {
+            "id": 23,
+            "categoriaId":5,
+            "titulo": "Jimmy Jazz",
+            "url": "https://www.youtube.com/watch?v=uqTpZXcTc_s&list=PLkLimRXN6NKzoSccJhADNW42Ayxf7mYwF&index=3"
+        },
+        {
+            "id": 24,
+            "categoriaId":5,
+            "titulo": "The Right Profile",
+            "url": "https://www.youtube.com/watch?v=ssFiUE-T2OA&list=PLkLimRXN6NKzoSccJhADNW42Ayxf7mYwF&index=7"
+        },
+        {
+            "id": 25,
+            "categoriaId":5,
+            "titulo": "Koka Kola",
+            "url": "https://www.youtube.com/watch?v=yqIsh9Vdnuc&list=PLkLimRXN6NKzoSccJhADNW42Ayxf7mYwF&index=13"
+        }
+    ]
+}
+

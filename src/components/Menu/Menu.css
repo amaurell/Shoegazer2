@@ -1,0 +1,63 @@
+.Logo {
+  max-width: 154px;
+  height: 50px;
+  margin-right: 200px;
+}
+@media (max-width: 800px) {
+  .Logo {
+    max-width: 100px;
+    margin-right: 0px;
+    height: 38px;
+  }
+}
+
+.Menu {
+  width: 100%;
+  height: 94px;
+  z-index: 100;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left: 2%;
+  padding-right: 5%;
+
+  background: var(--black);
+  border-bottom: 2px solid rgb(92, 90, 90);
+
+}
+body {
+  --bodyPaddingTop: 94px;
+  padding-top: var(--bodyPaddingTop);
+}
+@media (max-width: 800px) {
+  .Menu {
+    height: 48px;
+    justify-content: center;
+    padding-left: 0%;
+    padding-right: 0%;  
+  }
+  .Helper{
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+  body {
+    --bodyPaddingTop: 40px;
+    padding-top: var(--bodyPaddingTop);
+  }
+  .button {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--primary);
+    border-radius: 0;
+    border: 0;
+    text-align: center;
+  }
+}

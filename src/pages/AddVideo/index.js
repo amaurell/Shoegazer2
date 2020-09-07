@@ -23,7 +23,7 @@ const AddVideo = () => {
 
   React.useEffect(() => {
     async function getData() {
-      const URL = 'http://localhost:5000/videos';
+      const URL = 'https://tranquil-beach-70411.herokuapp.com/videos';
       const response = await fetch(URL);
       const data = await response.json();
 
@@ -57,7 +57,7 @@ const AddVideo = () => {
   async function sendToServer() {
     const bandsArray = atualLink.slice(1, atualLink.length);
 
-    await fetch(`http://localhost:5000/videos/update/${bandName}`, {
+    await fetch(`https://tranquil-beach-70411.herokuapp.com/videos/update/${bandName}`, {
       method: 'post',
       mode: 'no-cors',
 

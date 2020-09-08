@@ -21,6 +21,8 @@ const AddVideo = () => {
 
   const [bandName, setBandName] = useState('');
 
+  const [password, setPassword] = React.useState(null);
+
   React.useEffect(() => {
     async function getData() {
       const URL = 'https://tranquil-beach-70411.herokuapp.com/videos';
@@ -109,8 +111,20 @@ const AddVideo = () => {
                   <br />
                 </>
               ))}
+
+              <div className="center">
+                {password !== 'mellome' ? (
+                  <>
+                    <input onChange={(e) => setPassword(e.target.value)} className="input_pass" placeholder="Password" />
+                  </>
+                ) : (
+                    <button className="button_submit" type="submit" onClick={sendToServer}>
+                      Submit
+                    </button>
+                  )}
+              </div>
             </form>
-            <button className="button_submit" type="button" onClick={sendToServer}>Submit</button>
+
           </div>
         </div>
       </PageDefault>

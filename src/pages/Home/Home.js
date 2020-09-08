@@ -7,8 +7,6 @@ import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import Footer from '../../components/Footer';
 
-import repo from '../../repositories/categorias';
-
 function Home() {
   const [categories, setCategories] = useState([]);
 

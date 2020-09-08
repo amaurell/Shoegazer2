@@ -71,3 +71,27 @@ td, th {
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.input_pass{
+    margin-top: 50px;
+}
+
+@media (max-width: 800px) {
+    .input_link{
+        width: 120px;
+    }
+    
+    td, th {
+        margin-right: 60px;
+        text-align: left;
+      }
+      .input_name{
+        width: 80px;
+        margin-left: 20px;
+    }
+  }

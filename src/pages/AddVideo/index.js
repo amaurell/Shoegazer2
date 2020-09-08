@@ -58,10 +58,11 @@ const AddVideo = () => {
 
   async function sendToServer() {
     const bandsArray = atualLink.slice(1, atualLink.length);
-
-    await fetch(`https://tranquil-beach-70411.herokuapp.com/videos/update/${bandName}`, {
+  
+    const URL = `https://tranquil-beach-70411.herokuapp.com/videos/update/${bandName}`;
+    await fetch(URL, {
       method: 'post',
-      mode: 'cors',
+      mode: 'no-cors',
 
       body: await JSON.stringify({
         nome: bandName,

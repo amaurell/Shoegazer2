@@ -64,7 +64,7 @@ const AddVideo = () => {
       mode: 'cors',
 
       body: await JSON.stringify({
-        titulo: bandName,
+        nome: bandName,
         cor: 'default',
         new_bands: bandsArray,
       }),
